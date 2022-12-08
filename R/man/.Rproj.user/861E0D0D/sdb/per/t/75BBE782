@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "Package: SAFER\nTitle: Sensitivity Analysis For Everybody with R\nVersion: 1.1\nDescription: Range of tools for Global Sensitivity Analysis (GSA)\nAuthors@R: c(person(given = \"Isabella\", family = \"Gollini\", role = c(\"aut\",\"cre\"), email = \"igollini.stats@gmail.com\"), person(\"Francesca\", \"Pianosi\", role = \"aut\"), person(\"Fanny\", \"Sarrazin\", role = \"aut\"), person(\"Thorsten\", \"Wagener\", role = \"aut\"))\nDepends: R (>= 3.0.0), caTools, calibrater\nLicense: file LICENSE\nURL: http://bristol.ac.uk/cabot/resources/safe-toolbox/\nLazyData: true\nNeedsCompilation: no\nPackaged: 2015-07-20 14:49:36 UTC; igollini\nAuthor: Isabella Gollini [aut, cre],\n  Francesca Pianosi [aut],\n  Fanny Sarrazin [aut],\n  Thorsten Wagener [aut]\nMaintainer: Isabella Gollini <igollini.stats@gmail.com>\n",
+    "created" : 1531251003133.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2859683631",
+    "id" : "75BBE782",
+    "lastKnownWriteTime" : 1510587166,
+    "last_content_update" : 1510587166,
+    "path" : "C:/Users/vn1197/OneDrive - University of Bristol/proj_SAFEVAL/safer_1.1/SAFER/DESCRIPTION",
+    "project_path" : null,
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "dcf"
+}

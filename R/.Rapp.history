@@ -1,0 +1,10 @@
+precip = col(3,11)
+precip = [ 3; 2; 1]
+precip = () 3; 2; 1)
+precip = c(3,4,5)
+precip
+Y = c(precip,-precip)
+Y
+precip = c(3,4,5)''
+precip = c(3,4,5)'
+k
