@@ -44,6 +44,12 @@ EET_convergence <- function(EE, rr, Nboot = 0, alfa = 0.05){
 
 r <- rr[length(rr)]
 
+R <- length(rr)
+M <- ncol(EE)
+
+m_r <- matrix(nrow = R, ncol = M)
+s_r  <- matrix(nrow = R, ncol = M)
+
 stopifnot(is.matrix(EE), is.numeric(EE), floor(rr) == rr, rr > 0, diff(rr) >0, r <= nrow(EE),
 is.scalar(Nboot), Nboot >=0, Nboot == floor(Nboot),
 is.numeric(alfa), alfa <= 1, alfa >= 0)
@@ -53,12 +59,6 @@ is.numeric(alfa), alfa <= 1, alfa >= 0)
 ############
 
 if (Nboot > 1){
-	
-	R <- length(rr)
-	M <- ncol(EE)
-	
-	m_r <- matrix(nrow = R, ncol = M)
-	s_r  <- matrix(nrow = R, ncol = M)
 	
     m_sd_r <- matrix(nrow = R, ncol = M)
     m_lb_r <- matrix(nrow = R, ncol = M)

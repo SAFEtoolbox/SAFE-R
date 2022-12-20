@@ -35,7 +35,7 @@ split_sample <- function(Z, ngroup=10){
   
   Zu <- unique(Z) # distinct values of Z
   
-  if (length(Zu) < ngroup ){ # if number of distinct values less than the specified number of groups
+  if (length(Zu) <= ngroup ){ # if number of distinct values less than the specified number of groups
     n_eff <- length(Zu) # groups' centers are the different values of Xi
     Zc <- sort(Zu)
     Zk <- c(Zc, tail(Zc,n=1)) # groups' edges

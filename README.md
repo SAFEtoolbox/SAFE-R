@@ -15,7 +15,6 @@ Before installing SAFE, you must install these other packages (unless you have i
 - caTools
 - ggplot2
 - cowplot
-- matrixStats
 - gridExtra
 - FRACTION
 - devtools
