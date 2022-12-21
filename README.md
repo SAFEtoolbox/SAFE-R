@@ -17,6 +17,7 @@ Before installing SAFE, you must install these other packages (unless you have i
 - cowplot
 - gridExtra
 - FRACTION
+- matrixStats
 - devtools
 - calibrater 
 
