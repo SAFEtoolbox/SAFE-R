@@ -53,10 +53,5 @@ Implemented methods are:
 - rsa (regional sensitivity analysis)
 - vbsa (variance-based sensitivity analysis, or method of Sobol')
 
-Furthermore, SAFE includes additional workflow scripts:
-- external: how to connect SAFE to a model running outside python
-- tvsa: how to apply GSA methods to perform time-varying sensitivity analysis 
-- visual: how to use visualisation functions for qualitative GSA
-
-If the user still does not have a clear idea of what method(s) to start with, we suggest one of the three most widely used methods: eet (e.g. workflow_eet_hymod), rsa (workflow_rsa_hymod), vbsa (workflow_vbsa_hymod) or the visualization workflow (workflow_visual_ishigami_homma.m).
+If the user still does not have a clear idea of what method(s) to start with, we suggest one of the three most widely used methods: eet (e.g. workflow_eet_hymod), rsa (workflow_rsa_hymod) or vbsa (workflow_vbsa_hymod).
 
