@@ -1,11 +1,11 @@
 punifd <- function(q, min = 0, max = 1){
 	
-	if(q < min){
-		robj <- 0
-		} else {
-			robj <- ifelse(q > max, 1,  floor(q) / (max - min + 1))		
-		}
+  out <- q * 0
+  
+  for(ii in 1:length(q)){
+	 out[ii] <- ifelse(q[ii] > max, 1,  floor(q[ii]) / (max - min + 1))		
+  }
 		
-		return(robj)
+	return(out)
 		
 }
